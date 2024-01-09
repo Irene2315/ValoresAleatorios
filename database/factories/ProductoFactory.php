@@ -22,7 +22,6 @@ class ProductoFactory extends Factory
         return [
             'nombre' => $this->faker->unique()->randomElement(['Calabaza','Manzana','Melon','Sandia','Limon','Melocoton'])
             ,'descripcion' => $this->faker->sentence()
-            ,'cantidad' => $this->faker->randomNumber()
         ];
     }
 }
